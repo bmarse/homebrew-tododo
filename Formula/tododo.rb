@@ -1,8 +1,8 @@
 class Tododo < Formula
   desc "Some todo manager that should be extinct"
   homepage "https://github.com/bmarse/tododo"
-  url "https://github.com/bmarse/tododo/archive/refs/tags/v0.6.0-stable.tar.gz"
-  sha256 "25417b763fec6cbeb7fc96a2e4c979fb884b8a7a51e2a207f22a15003c088d69"
+  url "https://github.com/bmarse/tododo/archive/refs/tags/v0.7.0-stable.tar.gz"
+  sha256 "d57c5d28efabc8f63e6ee21b5283449545ff7db6b299ed80649022c75dcfb215"
   license "MIT"
   depends_on "go" => :build
   def install
