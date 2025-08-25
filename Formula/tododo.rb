@@ -6,7 +6,7 @@ class Tododo < Formula
   license "MIT"
   depends_on "go" => :build
   def install
-    ldflags = "-s -w -X 'main.appVersion=brew-v0.6.0-stable'"
+    ldflags = "-s -w -X 'main.appVersion=brew-v0.7.0-stable'"
     system "go", "build", *std_go_args(ldflags: ldflags), "."
   end
   test do
